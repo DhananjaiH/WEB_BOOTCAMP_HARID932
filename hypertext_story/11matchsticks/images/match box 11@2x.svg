@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>match box 11@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="match-box-11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy" stroke="#FBC74B" stroke-width="10" fill="#7B3916" x="183" y="132" width="146" height="230"></rect>
+        <g id="match-stick" transform="translate(190.000000, 143.000000)">
+            <rect id="Rectangle" fill="#FBC74B" x="4" y="17" width="21" height="136"></rect>
+            <ellipse id="Oval" fill="#FF8849" cx="15" cy="17.5" rx="15" ry="17.5"></ellipse>
+        </g>
+        <g id="match-stick-copy" transform="translate(224.000000, 143.000000)">
+            <rect id="Rectangle" fill="#FBC74B" x="4" y="17" width="21" height="136"></rect>
+            <ellipse id="Oval" fill="#FF8849" cx="15" cy="17.5" rx="15" ry="17.5"></ellipse>
+        </g>
+        <g id="match-stick-copy-2" transform="translate(258.000000, 143.000000)">
+            <rect id="Rectangle" fill="#FBC74B" x="4" y="17" width="21" height="136"></rect>
+            <ellipse id="Oval" fill="#FF8849" cx="15" cy="17.5" rx="15" ry="17.5"></ellipse>
+        </g>
+        <g id="match-stick-copy-3" transform="translate(292.000000, 143.000000)">
+            <rect id="Rectangle" fill="#FBC74B" x="4" y="17" width="21" height="136"></rect>
+            <ellipse id="Oval" fill="#FF8849" cx="15" cy="17.5" rx="15" ry="17.5"></ellipse>
+        </g>
+        <rect id="Rectangle" stroke="#FF8849" stroke-width="20" fill="#FBC74B" x="176" y="196" width="160" height="220"></rect>
+    </g>
+</svg>
