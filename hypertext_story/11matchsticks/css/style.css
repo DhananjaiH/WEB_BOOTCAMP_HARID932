@@ -63,7 +63,8 @@
 #play-area img{
 	display: block;
 	width:80%;
-	max-height: 256px;
+	/*max-height: 256px;*/
+	max-width: 256px;
 	margin: auto;
 	z-index: 5;
 }
