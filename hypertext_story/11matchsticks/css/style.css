@@ -1,0 +1,70 @@
+* {
+	font-family: sans-serif;
+	background-color: #231f20;
+	/* todo: could do some dark repetitive pattern image (if time) */
+	color:#FAFAFA;
+	box-sizing: border-box;
+}
+
+#page_title {
+	text-align: center;
+	font-style: italic;
+}
+
+.main {
+	/*margin:8px;*/
+	padding:8px;
+	/*display: inline-block;
+	border: 2px solid #FAFAFA;*/
+	align-content: center;
+}
+
+.main div {
+	margin:auto;
+	padding: 8px;
+	background-color:rgb(46,48,55);
+	float: left;
+	width: 30%;
+	min-height: 350px;
+	border-radius: 5px;
+}
+.main p, .main h4, .main img, .main li, .main ul {
+	background-color:rgb(46,48,55);
+}
+
+#history {
+	text-align: left;
+}
+
+#play-area {
+	/*display:inline;
+	float: left;
+	border: 1px solid #fafafa;
+	border-radius: 5px;*/
+	text-align: center;
+	align-content: center;
+}
+
+#play-area a{
+	padding: 4px;
+	margin: 2px;
+	background-color: rgb(125,173,237);
+	border-radius: 2px;
+}
+
+#play-area img{
+	display: block;
+	margin: 16px;
+}
+
+#rules {
+	text-align: left;
+}
+#rules li {
+	margin-left:-20px;
+}
+
+button {
+	width:100px;
+	height:25px;
+}
