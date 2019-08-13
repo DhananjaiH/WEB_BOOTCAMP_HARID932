@@ -1,0 +1,71 @@
+
+.large-block {
+	width: 30%;
+	min-width: 150px;
+	display: inline-block;
+	border: 5px solid cyan;
+	margin: auto;
+	align-self: center;
+	align-content: center;
+}
+
+.small-block {
+	height: 50px;
+	width:49%;
+	margin: auto;
+	display:inline-block;
+	background-color: magenta;
+	border: 1px dashed black;
+}
+
+/* 1 em = 16 px */
+/* MEDIA QUERIES */
+/* tablet */
+@media screen and (min-width: 500px){
+	body {
+		background-color: orange;
+	}
+	.small-block {
+		height: 350px;
+	}
+}
+
+
+
+/* desktop */
+@media screen and (min-width: 1050px) {
+	body {
+		background-color: red;
+	}
+	.small-block {
+		height: 150px;
+	}
+}
+
+
+
+/* FOR MOBILE DEVICES*/
+/* Source for different devices http://cssmediaqueries.com/target/ */
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+	body {
+		background-color: yellow;
+	}
+	.large-block {
+		display: block;
+		width: 100%;
+	}
+	.small-block {
+		height: 250px;
+	}
+}
+
+@media screen and (max-device-width: 500px) and (orientation: landscape) {
+	.large-block {
+		display: block;
+		width: 100%;
+	}
+	.small-block {
+		display: block;
+		width: 100%;
+	}
+}

@@ -1,0 +1,302 @@
+* {
+  font-family: 'VT323', monospace;
+  color: #fafafa;
+  background-color: #231f20;
+}
+
+.header {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.header h1 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.header h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.header h5 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* default styles for mobile */
+.edu {
+  display: block;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 16px;
+  padding: 8px;
+  text-align: center;
+}
+.edu .school {
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.edu h3 {
+  font-size: 1.75em;
+  margin: 8px;
+}
+
+.history {
+  display: block;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 16px;
+  padding: 8px;
+  text-align: center;
+}
+.history .work {
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.history h3 {
+  font-size: 1.75em;
+  margin: 8px;
+}
+
+.projects {
+  display: block;
+  clear: both;
+  margin: auto;
+  margin-top: 16px;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+}
+.projects .proj-desc {
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.projects h3 {
+  font-size: 1.75em;
+  margin: 8px;
+}
+
+.interests {
+  display: block;
+  margin: auto;
+  margin-top: 16px;
+  padding-top: 8px;
+  text-align: center;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
+}
+.interests .item {
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.interests h3 {
+  font-size: 1.75em;
+  margin: 8px;
+}
+/* end of default styles for mobile */
+
+
+/* tablet */
+@media screen and (min-width: 768px){
+  .header h1 {
+    font-size: 4em;
+  }
+  .header h3 {
+    font-size: 2em;
+  }
+  .header h5 {
+    font-size: 2em;
+  }
+
+  .edu {
+    display: block;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    text-align: center;
+  }
+  .edu .school {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  .edu h3 {
+    font-size: 1.75em;
+    margin: 8px;
+  }
+
+  .history {
+    display: block;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 16px;
+    padding: 8px;
+    text-align: center;
+  }
+  .history .work {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  .history h3 {
+    font-size: 1.75em;
+    margin: 8px;
+  }
+
+  .projects {
+    display: block;
+    clear: both;
+    margin: auto;
+    margin-top: 16px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+  }
+  .projects .proj-desc {
+    display: inline-block;
+    width: 18%;
+    margin: auto;
+    text-align: center;
+  }
+  .projects h3 {
+    font-size: 1.75em;
+    margin: 8px;
+  }
+
+  .interests {
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    padding-top: 8px;
+    text-align: center;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+  }
+  .interests .item {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  .interests h3 {
+    font-size: 1.75em;
+    margin: 8px;
+  }
+}
+
+/* 1 em = 16 px */
+/* MEDIA QUERIES */
+/* desktop */
+@media screen and (min-width: 1024px) {
+  .header h1 {
+    font-size: 5em;
+  }
+  .header h3 {
+    font-size: 2em;
+  }
+  .header h5 {
+    font-size: 2em;
+  }
+
+  .edu {
+    display: inline-block;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+    width: 48%;
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+  }
+  .edu .school {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  .edu h3 {
+    font-size: 1.75em;
+    margin: 8px;
+  }
+
+  .history {
+    display: inline-block;
+    float: right;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+    width: 48%;
+    margin: auto;
+    padding: 8px;
+    text-align: center;
+  }
+  .history .work {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  .history h3 {
+    font-size: 1.75em;
+    margin: 8px;
+  }
+
+  .projects {
+    display: block;
+    clear: both;
+    margin: auto;
+    margin-top: 16px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+  }
+  .projects .proj-desc {
+    display: inline-block;
+    width: 18%;
+    margin: auto;
+    text-align: center;
+  }
+  .projects h3 {
+    font-size: 1.75em;
+    margin: 8px;
+  }
+
+  .interests {
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    padding-top: 8px;
+    text-align: center;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+  }
+  .interests .item {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  .interests h3 {
+    font-size: 1.75em;
+    margin: 8px;
+  }
+}
