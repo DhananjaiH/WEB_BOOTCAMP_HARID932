@@ -39,6 +39,10 @@
   margin: auto;
   text-align: center;
 }
+.edu .school img {
+  max-width: 150px;
+  max-height: 150px;
+}
 .edu h3 {
   font-size: 1.75em;
   margin: 8px;
@@ -60,6 +64,11 @@
   margin: auto;
   text-align: center;
 }
+.history .work img {
+  background-color: #FAFAFA;
+  max-width: 150px;
+  max-height: 150px;
+}
 .history h3 {
   font-size: 1.75em;
   margin: 8px;
@@ -80,6 +89,10 @@
   width: 30%;
   margin: auto;
   text-align: center;
+}
+.projects .proj-desc img {
+  max-width: 150px;
+  max-height: 150px;
 }
 .projects h3 {
   font-size: 1.75em;
