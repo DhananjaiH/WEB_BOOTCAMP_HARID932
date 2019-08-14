@@ -32,6 +32,9 @@
   margin-bottom: 16px;
   padding: 8px;
   text-align: center;
+  /*transition: width 1s, position 1s;*/
+  transition: all 1s;
+  transition-timing-function: linear;
 }
 .edu .school {
   display: inline-block;
@@ -57,6 +60,9 @@
   margin-bottom: 16px;
   padding: 8px;
   text-align: center;
+  /*transition: width 1s, position 1s;*/
+  transition: all 1s;
+  transition-timing-function: linear;
 }
 .history .work {
   display: inline-block;
@@ -83,12 +89,16 @@
   text-align: center;
   border: 1px solid #fafafa;
   border-radius: 4px;
+  transition: all 1s;
+  transition-timing-function: linear;
 }
 .projects .proj-desc {
   display: inline-block;
   width: 30%;
   margin: auto;
   text-align: center;
+  transition: all 1s;
+  transition-timing-function: linear;
 }
 .projects .proj-desc img {
   max-width: 150px;
@@ -98,31 +108,11 @@
   font-size: 1.75em;
   margin: 8px;
 }
-
-.interests {
-  display: block;
-  margin: auto;
-  margin-top: 16px;
-  padding-top: 8px;
-  text-align: center;
-  border: 1px solid #fafafa;
-  border-radius: 4px;
-}
-.interests .item {
-  display: inline-block;
-  width: 30%;
-  margin: auto;
-  text-align: center;
-}
-.interests h3 {
-  font-size: 1.75em;
-  margin: 8px;
-}
 /* end of default styles for mobile */
 
 
 /* tablet */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 868px){
   .header h1 {
     font-size: 4em;
   }
@@ -192,26 +182,6 @@
     text-align: center;
   }
   .projects h3 {
-    font-size: 1.75em;
-    margin: 8px;
-  }
-
-  .interests {
-    display: block;
-    margin: auto;
-    margin-top: 16px;
-    padding-top: 8px;
-    text-align: center;
-    border: 1px solid #fafafa;
-    border-radius: 4px;
-  }
-  .interests .item {
-    display: inline-block;
-    width: 30%;
-    margin: auto;
-    text-align: center;
-  }
-  .interests h3 {
     font-size: 1.75em;
     margin: 8px;
   }
@@ -289,26 +259,6 @@
     text-align: center;
   }
   .projects h3 {
-    font-size: 1.75em;
-    margin: 8px;
-  }
-
-  .interests {
-    display: block;
-    margin: auto;
-    margin-top: 16px;
-    padding-top: 8px;
-    text-align: center;
-    border: 1px solid #fafafa;
-    border-radius: 4px;
-  }
-  .interests .item {
-    display: inline-block;
-    width: 30%;
-    margin: auto;
-    text-align: center;
-  }
-  .interests h3 {
     font-size: 1.75em;
     margin: 8px;
   }
