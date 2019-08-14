@@ -5,6 +5,12 @@ The site is available [here](https://dhananjaih.github.io/WEB_BOOTCAMP_HARID932/
 
 ***
 
+### Assignment: Responsive Webpage with transitions
+A sample responsive resume with some transitions.
+[link](https://dhananjaih.github.io/WEB_BOOTCAMP_HARID932/responsive_resume/)
+
+***
+
 ### Assignment: HyperText Adventure - A Game of 11 Match Sticks
 
 Here's a fun interactive game using only simple hypertext links, some web pages, and some CSS. The web page can be found through this [link](https://dhananjaih.github.io/WEB_BOOTCAMP_HARID932/hypertext_story/11matchsticks/).
